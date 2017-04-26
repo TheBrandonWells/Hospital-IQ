@@ -43,7 +43,7 @@ class App extends Component {
             <h2>Frontend Coding Exercise</h2>
           </div>
           <p className="appIntro">
-            Here&lsquo;s my Project grabbing the data from the api and making a sortable react table.<br /> Please direct any questions to <strong>Brandon@BrandonRwells.com</strong>.
+            Here&rsquo;s my Project grabbing the data from the api and making a sortable react table.<br /> Please direct any questions to <strong>Brandon@BrandonRwells.com</strong>.
           </p>
 
           {this.state.loading ? (
