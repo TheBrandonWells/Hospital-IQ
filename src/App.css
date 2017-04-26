@@ -1,0 +1,109 @@
+body {
+  background: #eee;
+  color: #777;
+}
+
+a {
+  color: #777777;
+}
+
+.app {
+  text-align: center;
+}
+
+.appLogo {
+  height: 80px;
+}
+
+.appHeader {
+  background-color: #fff;
+  height: 150px;
+  padding: 20px;
+  color: #777;
+}
+
+.appIntro {
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+.reactable-column-header {
+  padding: 10px 0;
+}
+
+.reactable-page-button {
+  margin-left: 5px;
+  margin-right: 2px;
+  margin-bottom: 6px;
+  padding: 3px;
+  width: 30px;
+  float: left;
+  cursor: pointer;
+  color: #000;
+  border: 1px solid #AAA;
+  background-color: #EEE;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.reactable-page-button:hover {
+  text-decoration: none;
+  color: #333;
+  background-color: #DDD;
+}
+
+.reactable-current-page {
+  background-color: #DDD;
+  cursor: default;
+}
+.dataTable {
+  width: 80%;
+  background: #fff;
+  margin: 0 auto;
+}
+.dataTable th {
+  cursor: pointer;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 13px;
+  border-bottom: 1px solid #eee;
+}
+
+.reactable-data tr:nth-child(even) {
+  background-color: #eee;
+}
+
+.dataTable th.reactable-header-sort-desc, .dataTable th.reactable-header-sort-asc {
+  background-color: #ddd;
+}
+
+.dataTable th.reactable-header-sort-desc:after {
+  content: '\25B2';
+  font-size: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.dataTable th.reactable-header-sort-asc:after {
+  content: '\25BC';
+  font-size: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+tr.reactable-filterer {
+  width: 100%;
+}
+
+tr.reactable-filterer td {
+  width: 100%;
+}
+
+.reactable-filter-input {
+  width: 95%;
+  margin-left: 10px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-right: 20px;
+  padding: 5px;
+}
